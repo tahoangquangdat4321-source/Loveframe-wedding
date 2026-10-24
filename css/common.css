@@ -1,0 +1,28 @@
+:root {
+    --bg-ivory: #FFF8F6;
+    --accent-blush: #F6D6D0; 
+    --accent-plum: #6A3F3F;   
+    --text-charcoal: #2E2E2E; 
+    --card-bg: #FFFFFF;         
+    --box-bg: #FAFAFA;    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-ivory);
+    color: var(--text-charcoal);
+    line-height: 1.6;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
+    color: var(--accent-plum);
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
