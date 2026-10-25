@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Album ảnh cưới | LoveFrame Wedding Studio</title>
+<meta name="description" content="Album ảnh cưới ngoại cảnh và studio của LoveFrame — phong cách tự nhiên, cảm xúc thật.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="display: inline-block; vertical-align: -3px; margin-right: 7px;"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21.2l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>LoveFrame<small>Wedding Studio</small></a>
+    <input type="checkbox" class="nav-toggle" id="nav-toggle">
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="dich-vu.html">Dịch vụ</a></li>
+        <li><a href="gallery.html" class="active">Album</a></li>
+        <li><a href="lien-he.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+    <label class="hamburger" for="nav-toggle" aria-label="Mở menu">
+      <span></span><span></span><span></span>
+    </label>
+  </div>
+</header>
+<section class="page-hero" style="background-image: url('images/gallery/gallery-01.jpg');">
+  <div class="container">
+    <div class="crumb"><a href="index.html">Trang chủ</a><span>/</span><span>Album</span></div>
+    <span class="eyebrow">Album ảnh cưới</span>
+    <h1>Những câu chuyện tình yêu,<br>kể bằng ánh sáng tự nhiên</h1>
+    <p>LoveFrame theo đuổi phong cách chụp tự nhiên, chân thật và đầy cảm xúc — để mỗi khoảnh khắc của hai bạn đều trở thành một câu chuyện đẹp. Hơn 5 năm qua, hàng nghìn cặp đôi đã tin tưởng chúng mình.</p>
+  </div>
+</section>
+<main class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Album ảnh cưới</span>
+      <h2>Chọn phong cách bạn yêu thích</h2>
+      <p>Lọc theo phong cách chụp để tìm ra vibe hợp với hai bạn nhất, rồi đặt lịch tư vấn để chúng mình kể tiếp câu chuyện của bạn.</p>
+    </div>
+    <input type="radio" class="gal-input" name="gal-filter" id="f-all" checked>
+    <input type="radio" class="gal-input" name="gal-filter" id="f-ngoai">
+    <input type="radio" class="gal-input" name="gal-filter" id="f-studio">
+    <div class="filter-bar">
+      <label class="filter-btn" for="f-all">Tất cả</label>
+      <label class="filter-btn" for="f-ngoai">Ngoại cảnh</label>
+      <label class="filter-btn" for="f-studio">Studio</label>
+    </div>
+    <div class="masonry">
+      <a class="g-item" href="#lb-1" data-cat="ngoai-canh">
+        <img src="images/gallery/gallery-01.jpg" alt="Cô dâu chú rể trán kề trán giữa cánh đồng lúc hoàng hôn" loading="lazy">
+        <span class="g-cap"><span class="tag">Ngoại cảnh</span><h3>Minh &amp; An</h3><p>Hoàng hôn trên cánh đồng cỏ</p></span>
+      </a>
+      <a class="g-item" href="#lb-2" data-cat="studio">
+        <img src="images/gallery/gallery-07.jpg" alt="Cô dâu chú rể nắm tay nhau trên nền trắng tối giản" loading="lazy">
+        <span class="g-cap"><span class="tag">Studio</span><h3>Long &amp; Vy</h3><p>Phong cách tối giản, tinh tế</p></span>
+      </a>
+      <a class="g-item" href="#lb-3" data-cat="ngoai-canh">
+        <img src="images/gallery/gallery-02.jpg" alt="Cô dâu chú rể hôn nhau giữa vườn cây xanh" loading="lazy">
+        <span class="g-cap"><span class="tag">Ngoại cảnh</span><h3>Tuấn &amp; Linh</h3><p>Nụ hôn giữa vườn xanh</p></span>
+      </a>
+      <a class="g-item" href="#lb-4" data-cat="studio">
+        <img src="images/gallery/gallery-09.jpg" alt="Cô dâu chú rể chạm trán qua lớp voan cưới mỏng" loading="lazy">
+        <span class="g-cap"><span class="tag">Studio</span><h3>Hải &amp; Dung</h3><p>Khoảnh khắc tinh khôi sau voan cưới</p></span>
+      </a>
+      <a class="g-item" href="#lb-5" data-cat="ngoai-canh">
+        <img src="images/gallery/gallery-03.jpg" alt="Cô dâu chú rể ôm bó hoa giữa khung cảnh thiên nhiên" loading="lazy">
+        <span class="g-cap"><span class="tag">Ngoại cảnh</span><h3>Nam &amp; Phương</h3><p>Ngày nắng vàng rực rỡ</p></span>
+      </a>
+      <a class="g-item" href="#lb-6" data-cat="ngoai-canh">
+        <img src="images/gallery/gallery-04.jpg" alt="Cô dâu chú rể sắp hôn nhau trong vườn hoa" loading="lazy">
+        <span class="g-cap"><span class="tag">Ngoại cảnh</span><h3>Đức &amp; Hân</h3><p>Vườn hoa mùa hạ</p></span>
+      </a>
+      <a class="g-item" href="#lb-7" data-cat="ngoai-canh">
+        <img src="images/gallery/gallery-10.jpg" alt="Chú rể bế cô dâu giữa rừng cây xanh" loading="lazy">
+        <span class="g-cap"><span class="tag">Ngoại cảnh</span><h3>Phúc &amp; Thảo</h3><p>Bay bổng giữa rừng thông</p></span>
+      </a>
+      <a class="g-item" href="#lb-8" data-cat="ngoai-canh">
+        <img src="images/gallery/gallery-05.jpg" alt="Cô dâu chú rể hôn nhau trên thảm cỏ với hoa mờ phía trước" loading="lazy">
+        <span class="g-cap"><span class="tag">Ngoại cảnh</span><h3>Khoa &amp; Trâm</h3><p>Thảm cỏ xanh êm đềm</p></span>
+      </a>
+      <a class="g-item" href="#lb-9" data-cat="ngoai-canh">
+        <img src="images/gallery/gallery-06.jpg" alt="Cô dâu chú rể ôm nhau giữa cánh đồng lúc chiều tà" loading="lazy">
+        <span class="g-cap"><span class="tag">Ngoại cảnh</span><h3>Bảo &amp; Ngọc</h3><p>Chiều vàng ôm trọn yêu thương</p></span>
+      </a>
+    </div>
+    <p class="gallery-note">Nhấn vào từng ảnh để xem lớn. Toàn bộ ảnh do ekip LoveFrame thực hiện.</p>
+    <div class="lightbox" id="lb-1">
+      <a class="lb-btn lb-close" href="#!" aria-label="Đóng">✕</a>
+      <a class="lb-btn lb-prev" href="#lb-9" aria-label="Ảnh trước">‹</a>
+      <div class="lb-inner">
+        <img src="images/gallery/gallery-01.jpg" alt="Cô dâu chú rể trán kề trán giữa cánh đồng lúc hoàng hôn">
+        <div class="lb-cap"><h3>Minh &amp; An</h3><p>Hoàng hôn trên cánh đồng cỏ — Ngoại cảnh</p></div>
+        <div class="lb-count">1 / 9</div>
+      </div>
+      <a class="lb-btn lb-next" href="#lb-2" aria-label="Ảnh sau">›</a>
+    </div>
+    <div class="lightbox" id="lb-2">
+      <a class="lb-btn lb-close" href="#!" aria-label="Đóng">✕</a>
+      <a class="lb-btn lb-prev" href="#lb-1" aria-label="Ảnh trước">‹</a>
+      <div class="lb-inner">
+        <img src="images/gallery/gallery-07.jpg" alt="Cô dâu chú rể nắm tay nhau trên nền trắng tối giản">
+        <div class="lb-cap"><h3>Long &amp; Vy</h3><p>Phong cách tối giản, tinh tế — Studio</p></div>
+        <div class="lb-count">2 / 9</div>
+      </div>
+      <a class="lb-btn lb-next" href="#lb-3" aria-label="Ảnh sau">›</a>
+    </div>
+    <div class="lightbox" id="lb-3">
+      <a class="lb-btn lb-close" href="#!" aria-label="Đóng">✕</a>
+      <a class="lb-btn lb-prev" href="#lb-2" aria-label="Ảnh trước">‹</a>
+      <div class="lb-inner">
+        <img src="images/gallery/gallery-02.jpg" alt="Cô dâu chú rể hôn nhau giữa vườn cây xanh">
+        <div class="lb-cap"><h3>Tuấn &amp; Linh</h3><p>Nụ hôn giữa vườn xanh — Ngoại cảnh</p></div>
+        <div class="lb-count">3 / 9</div>
+      </div>
+      <a class="lb-btn lb-next" href="#lb-4" aria-label="Ảnh sau">›</a>
+    </div>
+    <div class="lightbox" id="lb-4">
+      <a class="lb-btn lb-close" href="#!" aria-label="Đóng">✕</a>
+      <a class="lb-btn lb-prev" href="#lb-3" aria-label="Ảnh trước">‹</a>
+      <div class="lb-inner">
+        <img src="images/gallery/gallery-09.jpg" alt="Cô dâu chú rể chạm trán qua lớp voan cưới mỏng">
+        <div class="lb-cap"><h3>Hải &amp; Dung</h3><p>Khoảnh khắc tinh khôi sau voan cưới — Studio</p></div>
+        <div class="lb-count">4 / 9</div>
+      </div>
+      <a class="lb-btn lb-next" href="#lb-5" aria-label="Ảnh sau">›</a>
+    </div>
+    <div class="lightbox" id="lb-5">
+      <a class="lb-btn lb-close" href="#!" aria-label="Đóng">✕</a>
+      <a class="lb-btn lb-prev" href="#lb-4" aria-label="Ảnh trước">‹</a>
+      <div class="lb-inner">
+        <img src="images/gallery/gallery-03.jpg" alt="Cô dâu chú rể ôm bó hoa giữa khung cảnh thiên nhiên">
+        <div class="lb-cap"><h3>Nam &amp; Phương</h3><p>Ngày nắng vàng rực rỡ — Ngoại cảnh</p></div>
+        <div class="lb-count">5 / 9</div>
+      </div>
+      <a class="lb-btn lb-next" href="#lb-6" aria-label="Ảnh sau">›</a>
+    </div>
+    <div class="lightbox" id="lb-6">
+      <a class="lb-btn lb-close" href="#!" aria-label="Đóng">✕</a>
+      <a class="lb-btn lb-prev" href="#lb-5" aria-label="Ảnh trước">‹</a>
+      <div class="lb-inner">
+        <img src="images/gallery/gallery-04.jpg" alt="Cô dâu chú rể sắp hôn nhau trong vườn hoa">
+        <div class="lb-cap"><h3>Đức &amp; Hân</h3><p>Vườn hoa mùa hạ — Ngoại cảnh</p></div>
+        <div class="lb-count">6 / 9</div>
+      </div>
+      <a class="lb-btn lb-next" href="#lb-7" aria-label="Ảnh sau">›</a>
+    </div>
+    <div class="lightbox" id="lb-7">
+      <a class="lb-btn lb-close" href="#!" aria-label="Đóng">✕</a>
+      <a class="lb-btn lb-prev" href="#lb-6" aria-label="Ảnh trước">‹</a>
+      <div class="lb-inner">
+        <img src="images/gallery/gallery-10.jpg" alt="Chú rể bế cô dâu giữa rừng cây xanh">
+        <div class="lb-cap"><h3>Phúc &amp; Thảo</h3><p>Bay bổng giữa rừng thông — Ngoại cảnh</p></div>
+        <div class="lb-count">7 / 9</div>
+      </div>
+      <a class="lb-btn lb-next" href="#lb-8" aria-label="Ảnh sau">›</a>
+    </div>
+    <div class="lightbox" id="lb-8">
+      <a class="lb-btn lb-close" href="#!" aria-label="Đóng">✕</a>
+      <a class="lb-btn lb-prev" href="#lb-7" aria-label="Ảnh trước">‹</a>
+      <div class="lb-inner">
+        <img src="images/gallery/gallery-05.jpg" alt="Cô dâu chú rể hôn nhau trên thảm cỏ với hoa mờ phía trước">
+        <div class="lb-cap"><h3>Khoa &amp; Trâm</h3><p>Thảm cỏ xanh êm đềm — Ngoại cảnh</p></div>
+        <div class="lb-count">8 / 9</div>
+      </div>
+      <a class="lb-btn lb-next" href="#lb-9" aria-label="Ảnh sau">›</a>
+    </div>
+    <div class="lightbox" id="lb-9">
+      <a class="lb-btn lb-close" href="#!" aria-label="Đóng">✕</a>
+      <a class="lb-btn lb-prev" href="#lb-8" aria-label="Ảnh trước">‹</a>
+      <div class="lb-inner">
+        <img src="images/gallery/gallery-06.jpg" alt="Cô dâu chú rể ôm nhau giữa cánh đồng lúc chiều tà">
+        <div class="lb-cap"><h3>Bảo &amp; Ngọc</h3><p>Chiều vàng ôm trọn yêu thương — Ngoại cảnh</p></div>
+        <div class="lb-count">9 / 9</div>
+      </div>
+      <a class="lb-btn lb-next" href="#lb-1" aria-label="Ảnh sau">›</a>
+    </div>
+    <div class="cta-band">
+      <div>
+        <h2>Thích phong cách này?</h2>
+        <p>Để lại thông tin, chúng mình sẽ tư vấn concept, địa điểm và báo giá chi tiết hoàn toàn miễn phí.</p>
+      </div>
+      <a href="lien-he.html" class="btn btn-gold">Đặt lịch tư vấn ngay</a>
+    </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="display: inline-block; vertical-align: -3px; margin-right: 7px;"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21.2l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>LoveFrame<small>Wedding Studio</small></a>
+        <p>Lưu giữ khoảnh khắc, kiến tạo hạnh phúc</p>
+      </div>
+      <div>
+        <h4>Liên hệ với chúng tôi</h4>
+        <ul class="footer-contact">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>0123 456 789</span></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span>loveframe@gmail.com</span></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>123 Nguyễn Văn Cừ, Quận 1, TP.HCM</span></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Theo dõi chúng tôi</h4>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.5 1.6-1.5h1.3V4.9c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8V11H8v3h2.5v7h3z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></a>
+          <a href="#" aria-label="Youtube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="6" width="18" height="12" rx="4"/><path d="M10.5 9.8v4.4L14.5 12z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-newsletter">
+        <h4>Đăng ký nhận ưu đãi</h4>
+        <p>Nhận thông tin khuyến mãi và bộ ảnh mới nhất.</p>
+        <form class="newsletter-form" action="#" method="get">
+          <input type="email" name="newsletter-email" placeholder="Nhập email của bạn" aria-label="Email nhận ưu đãi" required>
+          <button type="submit" aria-label="Đăng ký nhận ưu đãi">→</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 LoveFrame Wedding Studio. All rights reserved.</span>
+      <span><a href="#">Chính sách bảo mật</a> &nbsp;|&nbsp; <a href="#">Điều khoản sử dụng</a></span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
